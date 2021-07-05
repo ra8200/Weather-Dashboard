@@ -18,7 +18,7 @@ function FormatDay(date){
 
 
 //Calling function init();
-// init();
+init();
 
 //Function init();
 function init(){
@@ -85,8 +85,8 @@ function renderCities() {
     //Adding city-input to the city array
     cities.push(city);
     // Store updated cities in localStorage, re-render the list
-//   storeCities();
-//   renderCities();
+  storeCities();
+  renderCities();
   });
 
   //Function get Response Weather 
